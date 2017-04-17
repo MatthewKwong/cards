@@ -1,0 +1,24 @@
+@font-face {
+    font-family: ca;
+    src: url('captain-america.ttf');
+}
+
+body {
+    background-color: #06062D;
+    margin-top:4%;
+}
+
+
+svg{
+    display: block;
+    margin: auto;
+    filter: drop-shadow(-4px -4px 4px white);
+}
+
+h1{
+    text-shadow: 5px 5px #195fd1;
+    text-align: center;
+    font-family:ca;
+    font-size:6em;
+    color:white;
+}
