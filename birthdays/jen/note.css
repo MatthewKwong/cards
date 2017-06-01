@@ -1,0 +1,18 @@
+body{
+font-family: "Lato", sans-serif;
+}
+
+.bigbox{
+    width:33%; float:left;
+}
+.box {
+  background: gray;
+  width: 65%;
+  height:200px;
+  padding: 3px;
+  margin: 3px auto;
+}
+#red-wrapper {
+    width:100%;
+    overflow:hidden;
+}
