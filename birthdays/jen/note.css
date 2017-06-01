@@ -1,18 +1,47 @@
-body{
-font-family: "Lato", sans-serif;
-}
-
-.bigbox{
-    width:33%; float:left;
-}
-.box {
-  background: gray;
-  width: 65%;
-  height:200px;
-  padding: 3px;
-  margin: 3px auto;
-}
-#red-wrapper {
-    width:100%;
-    overflow:hidden;
-}
+ html {
+    background: url("background.jpg") no-repeat center center fixed;
+    background-size: cover;
+ }
+ 
+ body {
+    font-family: "Lato", sans-serif;
+ }
+ 
+ #top{
+     text-align: center;    
+ }
+ 
+ .bigbox {
+    width: 33%;
+    float: left;
+ }
+ 
+ .box {
+    background: rgba(255, 255, 255, 0.55);
+    width: 70%;
+    height: 305px;
+    margin: 3px auto;
+    padding: 10px;
+    margin-bottom: 25px;
+    border:solid 2px #F1F1F1;
+ }
+ 
+ .small-box{
+    background: rgba(255, 255, 255, 0.55);
+    width: 70%;
+    height: 200px;
+    margin: 3px auto;
+    padding: 10px;
+    margin-bottom: 25px;
+    border:solid 2px #F1F1F1;
+ }
+ 
+ #red-wrapper {
+    width: 100%;
+    overflow: hidden;
+ }
+ 
+ .date {
+    text-align: center;
+ }
+ 

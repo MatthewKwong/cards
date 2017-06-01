@@ -15,8 +15,8 @@ body {
     text-align: center;
 }
 
-svg {
-    padding-top: 100px;
+#logo{
+    padding-top: 75px;
 }
 
 @media screen and (max-width: 1366px) {
