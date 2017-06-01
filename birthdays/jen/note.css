@@ -8,7 +8,6 @@
  }
  
 #test{
-  position: absolute;
   left: 0px;
   top: 0px;
   z-index: -1;
@@ -22,6 +21,12 @@
  
  .bigbox {
     width: 33%;
+    float: left;
+ }
+ 
+  
+ .gigabox {
+    width: 66%;
     float: left;
  }
  
@@ -45,6 +50,17 @@
     border:solid 2px #F1F1F1;
  }
  
+ 
+  .huge-box {
+    background: rgba(255, 255, 255, 0.55);
+    width: 70%;
+    height: 400px;
+    margin: 3px auto;
+    padding: 10px;
+    margin-bottom: 25px;
+    border:solid 2px #F1F1F1;
+ }
+ 
  #red-wrapper {
     width: 100%;
     overflow: hidden;
@@ -58,3 +74,23 @@
      font-family: bastille;
      src: url('bastille-font.ttf');
  }
+ a{
+    color:white;
+}
+
+a:visited{
+    color:white;
+}
+
+ 
+ #footer {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    font-family: 'bastille', sans-serif;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
