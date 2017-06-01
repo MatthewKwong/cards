@@ -7,8 +7,11 @@
     font-family: "Lato", sans-serif;
  }
  
+
+ 
  #top{
-     text-align: center;    
+    font-size: 1em;
+    text-align: center;    
  }
  
  .bigbox {
@@ -45,3 +48,7 @@
     text-align: center;
  }
  
+ @font-face {
+     font-family: bastille;
+     src: url('bastille-font.ttf');
+ }
